@@ -1,0 +1,1 @@
+<view><view class="detail-title"><text>{{info.title}}</text></view><view class="detail-info"><view class="detail-author"><text>{{info.author}}</text></view><view class="detail-time">{{''+info.time+''}}</view></view><view class="detail-text"><rich-text nodes="{{info.text}}"></rich-text></view></view>

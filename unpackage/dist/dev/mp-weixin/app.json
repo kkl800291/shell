@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/msg/msg",
+    "pages/home/home",
+    "pages/hotpoint/hotpoint",
+    "pages/history/history",
+    "pages/my/my",
+    "pages/search/search",
+    "pages/houseDetail/houseDetail",
+    "pages/map/map",
+    "pages/selectCity/selectCity",
+    "pages/hotDetail/hotDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#D32F2F",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "./static/imgs/icon_main.png",
+        "selectedIconPath": "./static/imgs/icon_main_s.png"
+      },
+      {
+        "pagePath": "pages/hotpoint/hotpoint",
+        "text": "热点",
+        "iconPath": "./static/imgs/icon_hot.png",
+        "selectedIconPath": "./static/imgs/icon_hot_s.png"
+      },
+      {
+        "pagePath": "pages/msg/msg",
+        "text": "消息",
+        "iconPath": "./static/imgs/icon_msg.png",
+        "selectedIconPath": "./static/imgs/icon_msg_s.png"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "足迹",
+        "iconPath": "./static/imgs/icon_history.png",
+        "selectedIconPath": "./static/imgs/icon_history_s.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./static/imgs/icon_my.png",
+        "selectedIconPath": "./static/imgs/icon_my_s.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取定位，查找房源"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "usingComponents": {}
+}

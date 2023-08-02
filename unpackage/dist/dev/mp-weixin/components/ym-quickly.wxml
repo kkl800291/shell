@@ -1,0 +1,1 @@
+<view class="quickly-wrap"><view class="quickly-title-wrap"><text>快速问答</text></view><view class="quickly-ans-wrap"><block wx:for="{{chatList}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><view class="ans-line"><text>{{item.question}}</text></view></block></view></view>

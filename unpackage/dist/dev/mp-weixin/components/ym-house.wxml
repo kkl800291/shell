@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['handleJumpDetail',['$event']]]]]}}" class="house-container" bindtap="__e"><view class="house-left"><image class="house-img" src="{{house.imgs}}" mode></image></view><view class="house-right"><text>{{house.name}}</text></view></view>

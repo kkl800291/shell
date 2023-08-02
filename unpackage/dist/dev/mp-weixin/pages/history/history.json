@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "足迹",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "ym-house": "/components/ym-house"
+  }
+}

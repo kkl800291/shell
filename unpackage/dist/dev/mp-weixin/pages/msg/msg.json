@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "ym-quickly": "/components/ym-quickly",
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar"
+  }
+}
